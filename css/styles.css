@@ -1,0 +1,35 @@
+#total-cost {
+  display: none;
+}
+
+h4 {
+  color: #5d0093;
+}
+
+#purple {
+  height: 3px;
+  background-color: #5d0093;
+}
+
+hr {
+  padding: .5px;
+  margin: 4px;
+  background-color: black;
+
+}
+
+.container {
+  padding: 10px;
+  margin: 10px auto;
+  border-color: black;
+  border-width: thick;
+  border-style: solid;
+}
+
+button {
+  color: white;
+  background-color: #5d0093;
+  margin      : 0;
+  padding     : 0;
+  border: 0;
+}
