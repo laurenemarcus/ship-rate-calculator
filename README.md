@@ -1,6 +1,6 @@
 INTRODUCTION
 ------------
-The shipment calculator app allows users determine the cost based on the package details. 
+The shipment calculator app allows users determine the cost based on the package details.
 
 REQUIREMENTS
 ------------
@@ -14,7 +14,7 @@ Open the following file in directory to launch the app:
 
 KNOWN BUGS
 ---------
-Doesn't account for non-integers.
+Search icon is not active.
 
 AUTHOR
 -------
