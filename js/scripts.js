@@ -7,22 +7,18 @@ $(document).ready(function() {
     var height = parseInt($("input#height").val());
     var weight = parseInt($("input#weight").val());
 
-    var newPackage = { from: from,
-      to: to,
+    var newPackage = { from: from, to: to, length: length, width: width, height: height, weight: weight,
       distance: function() {
         return Math.abs(this.from - this.to);
       },
-      length: length,
-      width: width,
-      height: height,
-      weight: weight,
       volume: function() {
-      return this.length * this.width * this.height;
+        return this.length * this.width * this.height;
       },
       cost: function() {
-      return this.distance()/500 + this.volume()/500 + this.weight/2;
+        return this.distance()/500 + this.volume()/500 + this.weight/2;
       }
     };
+
     $(".cost").text(Math.round(newPackage.cost()));
 
     $("#total-cost").show();
@@ -34,8 +30,6 @@ $(document).ready(function() {
     $("input#height").val("");
     $("input#weight").val("");
 
-
-
-      event.preventDefault();
+    event.preventDefault();
     });
 });
