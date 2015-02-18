@@ -1,6 +1,6 @@
 INTRODUCTION
 ------------
-The Triangle Tracker app allows users determine the type of triangle based on the length of its sides. It will also group the triangles based on type.
+The shipment calculator app allows users determine the cost based on the package details. 
 
 REQUIREMENTS
 ------------
